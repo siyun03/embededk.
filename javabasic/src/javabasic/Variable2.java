@@ -46,8 +46,12 @@ public class Variable2 {
 	}
 	
 	
-	//non static member method
-	public int add(int i , int j) {
-		return i+j;
+	// non static member method
+		public int add(int i, int j) {
+			
+		// add메소드의 지역변수
+			
+			int sum = i + j;
+			return sum;
 	}
 }
