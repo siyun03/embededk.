@@ -11,7 +11,7 @@ public class Variable3 {
 	protected int proti = 2;
 	//default : 동일한 패키지에서만 접근 가능
 	int di = 3; //default
-	//private : 클래스내에서만 접근 가능
+	//private : 클래스내에서만 접근 가능 
 	private int prii = 4;
 	
 	

@@ -10,8 +10,8 @@ public class Wrapper {public static void main(String[] args) {
 	int i =3;// 4바이트 정수-2~312^31-1, 정수의 기본타입
 	long l = 4;// 8바이트 정수-2^63~2^63-1
 	float f =3.14f;// 4바이트 실수, 3.14는 double이므로 3.14f라고 써서 4바이트 3.14임을 알려줘야함
-	double d =2.1;// 8바이트 실수, 실수의 기본타입..
-	char c = 'A'; // 21바이트 유니코드 문자
+	double d =2.1;// 8바이트 실수, 실수의 기본타입
+	char c = 'A'; // 2바이트 유니코드 문자
 	boolean bool = true;//1바이트 , true 또는 false 값만 가짐
 	
 	
